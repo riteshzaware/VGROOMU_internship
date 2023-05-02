@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Artha Travels</title>
+    <!-- CSS for page layout -->
+    <style>
+      body {
+        line-height: 1.5;
+        word-spacing: 1.7;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+    </style>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awsome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Head Section -->
+    <header class="header">
+      <div class="container top-border">
+        <div class="container flex header-padding">
+          <!-- Logo -->
+          <div class="logo">
+            <img src="logo.png" alt="logo" />
+          </div>
+          <!-- Navigation -->
+          <div class="navigation">
+            <ul>
+              <li class="call">Call us: +91 6387654321</li>
+              <li>
+                <!-- Icons -->
+                <ul class="icon">
+                  <li><i class="fab fac fa-facebook"></i></li>
+                  <li><i class="fab twi fa-twitter"></i></li>
+                  <li><i class="far mail fa-envelope"></i></li>
+                </ul>
+              </li>
+              <!-- Style for Head Section -->
+              <style>
+                .fac,
+                .twi,
+                .mail {
+                  font-size: 24px;
+                  margin-left: 16px;
+                  cursor: pointer;
+                  color: #5c606a;
+                }
+                .iso {
+                  color: #9f9f9f;
+                }
+                .call:hover {
+                  color: #6745d6;
+                }
+                .fac:hover {
+                  color: #4267b2;
+                }
+                .twi:hover {
+                  color: #39a2f2;
+                }
+                .mail:hover {
+                  color: #04ffd5;
+                }
+              </style>
+              <!-- nav 3rd line -->
+              <li class="iso">ISO 9001:2008 Certified</li>
+              <li>
+                <ul class="nav">
+                  <!-- Nav option with link to other pages -->
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="active">
+                    <a href="about.html">About us</a>
+                  </li>
+                  <li>
+                    <a href="#">Vehicles & Tariff</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="tour_package.html">Tour Package</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End of navbar -->
+    </header>
+    <!-- Style for Head Section -->
+    <style>
+      .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+      .nav li,
+      .icon li {
+        display: inline-block;
+      }
+      a {
+        text-decoration: none;
+      }
+      .call,
+      .iso {
+        font-size: 20px;
+      }
+      .padding {
+        padding: 40px 0;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        color: #f9a4a4;
+      }
+
+      .header {
+        background: radial-gradient(#ffffff, #f1f2f1);
+        box-shadow: 0 1px 1px 2px #bbbbbb;
+        border-top: 3px solid #9ec438;
+      }
+      .navigation {
+        text-align: right;
+        padding-bottom: 0;
+      }
+      .nav a {
+        color: #6d7ea9;
+        font-size: 22px;
+        padding-left: 24px;
+      }
+      .nav a:hover {
+        color: #37d642;
+      }
+      .active a {
+        color: #4fb423;
+      }
+
+      .header-padding {
+        padding-top: 8px;
+      }
+    </style>
+    <!-- End of Style Head Section -->
+    <!-- End of navsection -->
+
+    <main>
+      <style>
+        .contact {
+          background: #363636;
+          color: #ffffff;
+        }
+        .contact-flex {
+          display: flex;
+          justify-content: space-around;
+        }
+        .icon-circle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+          margin-bottom: 14px;
+        }
+        .icon-circle a {
+          color: #ffffff;
+          font-size: 32px;
+        }
+        .circle-color-1 {
+          background: #2b81c7;
+        }
+        .circle-color-2 {
+          background: #b82925;
+        }
+        .circle-color-3 {
+          background: #f3953d;
+        }
+        .contact h2 {
+          color: #ffffff;
+          font-size: 20px;
+          text-align: center;
+        }
+      </style>
+      <section class="aboutpage">
+        <div class="container">
+          <div class="tour-heading">
+            <h2>Terms and Condition</h2>
+          </div>
+          <div class="flex">
+            <div class="about-article">
+              <p align="justify">
+                At Artha we believe
+                <img
+                  class="about-article-img"
+                  src="aboutpage.png"
+                  alt="about"
+                />
+                in letting our services do the talking for they are our most
+                potent testament. It is our endeavour to set such high standard
+                of quality, professional services that would be an example for
+                other companies to emulate. Customer Delight is the most crucial
+                ingredient for the success of our company and it is the most
+                cherished of our goals. We focus our energy and thoughts on
+                delivering services that are a delight to our customers. To this
+                end we follow the most stringent processes that give no room for
+                negligence of duty. Safety is an unspoken stipulation for any
+                journey but it is one aspect that we take very seriously. We put
+                in place practices to ensure the safety of every journey we
+                undertake. Our trained, disciplined and experienced drivers
+                treat safety as foremost priority. Our tagline itself is - Just
+                Move Safely…
+              </p>
+            </div>
+            <div class="about-contact">
+              <ul>
+                <li class="about-diaplay" class="about-diaplay">
+                  <div class="icon-circle-about icon-circle circle-color-1">
+                    <a href="#"><i class="fas fa-mobile"></i></a>
+                  </div>
+                  <div class="about-right">
+                    <a class="about-color" href="#"
+                      ><h4>Call - +91 6387654321</h4></a
+                    >
+                  </div>
+                </li>
+                <li class="about-diaplay">
+                  <div class="icon-circle-about icon-circle circle-color-2">
+                    <a href="#"><i class="fas fa-rupee-sign"></i></a>
+                  </div>
+                  <div class="about-right">
+                    <a class="about-color-2" href="#"><h4>Checkout Fare</h4></a>
+                  </div>
+                </li>
+                <li class="about-diaplay">
+                  <div class="icon-circle-about icon-circle circle-color-3">
+                    <a href="#"><i class="far fa-address-book"></i></a>
+                  </div>
+                  <div class="about-right">
+                    <a class="about-color-3" href="#"
+                      ><h4>Online Booking</h4></a
+                    >
+                  </div>
+                </li>
+                <li class="about-diaplay">
+                  <div class="icon-circle-about icon-circle circle-color-2">
+                    <a href="#"><i class="far fa-lightbulb"></i></a>
+                  </div>
+                  <div class="about-right">
+                    <a class="about-color-2" href="#"><h4>Way Us</h4></a>
+                  </div>
+                </li>
+                <li class="about-diaplay">
+                  <div class="icon-circle-about icon-circle circle-color-1">
+                    <a href="#"><i class="fas fa-envelope-open-text"></i></a>
+                  </div>
+                  <div class="about-right">
+                    <a class="about-color" href="#"><h4>Email Us</h4></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <style>
+      .about-article-img {
+        float: left;
+        width: 200px;
+        margin-right: 32px;
+      }
+      .about-article {
+        padding-top: 24px;
+        width: 65%;
+      }
+      .aboutpage {
+        padding: 24px 0;
+      }
+      .aboutpage h2 {
+        padding-left: 24px;
+      }
+      .about-article p {
+        color: #5c606b;
+        font-size: 18px;
+      }
+      .icon-circle-about {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
+      .icon-circle-about a {
+        font-size: 32px;
+      }
+      .about-diaplay {
+        display: flex;
+      }
+      .about-right a {
+        padding-top: 14px;
+        font-size: 20px;
+      }
+      .about-right {
+        display: flex;
+      }
+      .about-color {
+        color: #2b81c7;
+      }
+      .about-color-2 {
+        color: #b82925;
+      }
+      .about-color-3 {
+        color: #f3953d;
+      }
+      .about-color:hover,
+      .about-color-2:hover,
+      .about-color-3 :hover {
+        color: #df78df;
+      }
+
+      /* media query for responsive page */
+
+      @media all and (max-width: 780px) {
+        .about-contact {
+          width: 100%;
+        }
+        .about-article {
+          width: 100%;
+          padding-bottom: 16px;
+        }
+        .about-diaplay {
+          margin-bottom: 12px;
+        }
+      }
+    </style>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer padding">
+        <div class="container flex">
+          <div col-4>
+            <h4>Our Services</h4>
+            <ul class="list-style">
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Pune to Mumbai Car Rental</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Pune to Mumbai Taxi Services</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Pune to Shirdi Car Rental</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Pune to Shirdi Car Hire</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Pune to Lonavala Return</a>
+              </li>
+            </ul>
+          </div>
+          <div col-4>
+            <h4>Useful Links</h4>
+            <ul class="list-style">
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Checkout Fare</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Online Booking</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">FAQs</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Sitemap</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Terms And Condition</a>
+              </li>
+            </ul>
+          </div>
+          <div col-4>
+            <h4>Quick Pages</h4>
+            <ul class="list-style">
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Home</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="about.html">About Us</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Vehicles & Tariff</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Why Choose Us</a>
+              </li>
+              <li>
+                <i class="right-icon fas fa-angle-right"></i
+                ><a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div col-4>
+            <h4>Contact us</h4>
+            <ul class="list-style">
+              <li>
+                <i class="right-icon fas fa-home"></i
+                ><span class="footer-icon">Chembur West. Mumbai</span>
+              </li>
+              <li>
+                <i class="right-icon fas fa-phone"></i
+                ><span class="footer-icon">+91 9876543210</span>
+              </li>
+              <li>
+                <i class="right-icon far fa-envelope"></i
+                ><span class="footer-icon">arthagajghat01@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Section below footer left-->
+      <div class="copyright">
+        <div class="container top-border">
+          <div class="copyright-padding flex">
+            <div>
+              <small
+                >Copyright &copy;2023
+                <a href="#">Artha Travels: Admin</a></small
+              >
+            </div>
+            <!-- Section below footer right-->
+            <div>
+              <small
+                >All Rights Reserved. Developed By
+                <a href="#">Artha Travels</a></small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer and Copyright section -->
+    <style>
+      .footer {
+        background: #363636;
+      }
+      .col-4 {
+        width: 22%;
+      }
+      .footer h4 {
+        color: #ffffff;
+        font-size: 26px;
+      }
+      .footer a {
+        padding-left: 8px;
+        font-size: 16px;
+        letter-spacing: 0.6px;
+        margin-bottom: 12px;
+      }
+      .right-icon {
+        color: #5c606b;
+        margin-bottom: 16px;
+        margin-top: 18px;
+      }
+      .footer-icon {
+        margin-left: 12px;
+        color: #f2f2f2;
+      }
+      .list-style li {
+        border-bottom: 1px solid #444444;
+      }
+      .list-style a:hover {
+        text-decoration: underline;
+      }
+      .footer-icon:hover {
+        text-decoration: underline;
+      }
+
+      .copyright {
+        background: #000000;
+        color: #f1f2f1;
+      }
+      .copyright a {
+        color: #459838;
+      }
+      .copyright-padding {
+        padding: 24px;
+      }
+    </style>
+  </body>
+</html>
+<!-- Code by Ritesh Zaware -->
